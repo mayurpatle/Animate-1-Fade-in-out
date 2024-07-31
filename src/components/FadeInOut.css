@@ -1,0 +1,36 @@
+.fade-in  {
+    animation :  fadeIn 2s  forwards  ; 
+    border : solid 1px #806b8a  ; 
+    height : 10rem  ; 
+    width  :  70%  ; 
+    margin :  auto    ; 
+    display : flex ; 
+    flex-direction: column;
+
+    align-items: center;
+     
+
+
+
+}
+
+.fade-out {
+    animation  :  fadeOut 2s forwards ;
+    border : solid 1px #806b8a  ; 
+    height : 10rem  ; 
+    width  :  70%  ; 
+    margin :  auto    ; 
+    text-align: center;
+    align-items: center;
+}
+
+@keyframes fadeIn {
+    from  { opacity: 0;}
+    to    { opacity: 1;}  
+    
+}
+
+@keyframes fadeOut {
+    from  { opacity: 1;}
+    to    { opacity: 0;}
+}
